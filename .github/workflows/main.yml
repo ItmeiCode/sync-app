@@ -28,7 +28,7 @@ jobs:
         run: flutter build apk --release --no-shrink
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2  # 更新为 v2
         with:
           name: sync-app-release
           path: build/app/outputs/flutter-apk/app-release.apk
