@@ -1,0 +1,27 @@
+name: phone_sync
+description: 手机文件同步工具
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  permission_handler: ^11.0.1
+  file_picker: ^6.1.1
+  path: ^1.8.3
+  intl: ^0.18.1
+  connectivity_plus: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
